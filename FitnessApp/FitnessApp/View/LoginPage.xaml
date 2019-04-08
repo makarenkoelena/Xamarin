@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessApp.LoginPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition  Height="Auto"/>
+            <RowDefinition  Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Text="This is Login Page" HorizontalOptions="Center" Grid.Row="0"/>
+        <StackLayout x:Name="UserCredentials" Grid.Row="1">
+          
+          <StackLayout>
+            <Label x:Name ="lbl_email" Text="Please enter your email" HorizontalOptions="Center" />
+            <Entry x:Name ="entry_email" Placeholder="email" />
+          </StackLayout>
+        
+
+            <StackLayout>
+                <Label x:Name ="lbl_password" Text="Please enter your password" HorizontalOptions="Center" />
+                <Entry x:Name ="entry_password" Placeholder="password" IsPassword="true"  />
+            </StackLayout>
+
+            <Button x:Name="btnLogin" Text="Login" Clicked="btnLogin_Clicked" />
+
+        </StackLayout>
+
+    </Grid>
+</ContentPage>

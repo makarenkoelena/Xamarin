@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessApp.BodyFat">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition  Height="Auto"/>
+            <RowDefinition  Height="Auto"/>
+            <RowDefinition  Height="Auto"/>
+            <RowDefinition  Height="Auto"/>
+            <RowDefinition  Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Text="Body Fat Calculator" HorizontalOptions="Center" Grid.Row="0"/>
+
+        <StackLayout x:Name="slUserEntry" HorizontalOptions="Center" Grid.Row="1">
+
+            <StackLayout x:Name="sGender" Orientation="Horizontal" Margin="0, 6, 0, 3">
+                <Label Text="Gender M/F: " />
+                <Picker x:Name="pckgender" SelectedIndexChanged="pckgender_SelectedIndexChanged">
+                    <Picker.Items>
+                        <x:String>M</x:String>
+                        <x:String>F</x:String>
+                    </Picker.Items>
+                    <Picker.SelectedIndex>0</Picker.SelectedIndex>
+                </Picker>
+            </StackLayout>
+
+            <StackLayout x:Name="slWaist_measurement"  Orientation="Horizontal" Margin="0, 3, 0, 3">
+                <Label Text="Waist measurement (cm): " />
+                <Entry x:Name="entWaist" Keyboard="Numeric" Placeholder="Your Waist Measurement" TextChanged="EntHeight_TextChanged" ClassId="Weight"/>
+            </StackLayout>
+
+            <StackLayout x:Name="slWeight"  Orientation="Horizontal" Margin="0, 3, 0, 3">
+                <Label Text="Weight (kg): " />
+                <Entry x:Name="entWeight" Keyboard="Numeric" Placeholder="Your Weight Here" TextChanged="EntHeight_TextChanged" ClassId="Weight"/>
+            </StackLayout>
+
+            <StackLayout x:Name="sHip_measurement"  Orientation="Horizontal" Margin="0, 3, 0, 3" IsVisible="False" >
+                <Label Text="Hip measurement (cm): " />
+                <Entry x:Name="entHip" Keyboard="Numeric" Placeholder="Your Hip Measurement" TextChanged="EntHeight_TextChanged" ClassId="Weight"/>
+            </StackLayout>
+
+            <StackLayout x:Name="sForearm_measurement"  Orientation="Horizontal" Margin="0, 3, 0, 3" IsVisible="False" >
+                <Label Text="Forearm measurement (cm): " />
+                <Entry x:Name="entForearm" Keyboard="Numeric" Placeholder="Your Forearm Measurement" TextChanged="EntHeight_TextChanged" ClassId="Weight"/>
+            </StackLayout>
+
+            <StackLayout x:Name="sWrist_measurement"  Orientation="Horizontal" Margin="0, 3, 0, 3" IsVisible="False" >
+                <Label x:Name="fw" Text="Wrist measurement (cm): " IsVisible="True"/>
+                <Entry x:Name="entWrist" Keyboard="Numeric" Placeholder="Your Wrist Measurement" TextChanged="EntHeight_TextChanged" ClassId="Weight"/>
+            </StackLayout>
+
+            <Label x:Name="lblAnswer" Text="Your Body Fat is: " Margin="0, 3, 0, 6" HorizontalOptions="Center"/>
+        </StackLayout>
+
+        <StackLayout x:Name="slButtons" Grid.Row="2" Orientation="Horizontal" HorizontalOptions="Center" >
+
+            <Button x:Name="btnCalculate" Text="Calculate" Margin="5" Clicked="btnCalculate_Clicked" />
+
+        </StackLayout>
+
+    </Grid>
+</ContentPage>

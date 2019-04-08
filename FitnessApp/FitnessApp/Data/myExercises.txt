@@ -1,0 +1,9 @@
+﻿[
+{"Exercise":"1", "Type":"push-ups", "SetNumber": 5, "RepetitionNumber": 10},
+{"Exercise":"2", "Type":"exercise2", "SetNumber": 0, "RepetitionNumber": 0},
+{"Exercise":"3", "Type":"dumbbell", "SetNumber": 3, "RepetitionNumber": 15},
+{"Exercise":"4", "Type":"exercise2", "SetNumber": 3, "RepetitionNumber": 15},
+{"Exercise":"5", "Type":"exercise3", "SetNumber": 3, "RepetitionNumber": 15}
+
+
+]

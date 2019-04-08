@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessApp.RegisterPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition  Height="Auto"/>
+            <RowDefinition  Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Label Text="This is Register Page" HorizontalOptions="Center" Grid.Row="0"/>
+       
+        <StackLayout x:Name="UserInfo" Grid.Row="1">
+
+            <StackLayout>
+                <Label Text="Enter your username" />
+                <Entry x:Name="username" />
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Enter your email" />
+                <Entry x:Name="email"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Enter your password"/>
+                <Entry x:Name="password" />
+            </StackLayout>
+            
+            <Button x:Name="btnRegister" Text="Register" Clicked="btnRegister_Clicked" />
+        </StackLayout>
+        
+    </Grid>
+</ContentPage>

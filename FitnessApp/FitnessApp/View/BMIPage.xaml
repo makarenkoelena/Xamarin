@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessApp.BMIPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition  Height="Auto"/>
+            <RowDefinition  Height="Auto"/>
+            <RowDefinition  Height="Auto"/>
+            <RowDefinition  Height="Auto"/>
+            <RowDefinition  Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Text="BMI Calculator" HorizontalOptions="Center" Grid.Row="0"/>
+
+        <StackLayout x:Name="slUserEntry" HorizontalOptions="Center" Grid.Row="1">
+
+            <StackLayout x:Name="slHeight" Orientation="Horizontal" Margin="0, 6, 0, 3">
+                <Label Text="Height (m): " />
+                <!--<Entry x:Name="entHeight" Keyboard="Numeric" Placeholder="Your Height Here" TextChanged="EntHeight_TextChanged" ClassId="Height"/>-->
+                <Picker x:Name="pckHM" >
+                    <Picker.Items>
+                        <x:String>0</x:String>
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                    </Picker.Items>
+                    <Picker.SelectedItem>1</Picker.SelectedItem>
+                </Picker>
+                <Picker x:Name="pckCM"/>
+            </StackLayout>
+
+            <StackLayout x:Name="slWeight"  Orientation="Horizontal" Margin="0, 3, 0, 3">
+                <Label Text="Weight (kg): " />
+                <Entry x:Name="entWeight" Keyboard="Numeric" Placeholder="Your Weight Here" TextChanged="EntHeight_TextChanged" ClassId="Weight"/>
+            </StackLayout>
+
+            <Label x:Name="lblAnswer" Text="Your BMI is: " Margin="0, 3, 0, 6" HorizontalOptions="Center"/>
+
+        </StackLayout>
+
+        <StackLayout x:Name="slButtons" Grid.Row="2" Orientation="Horizontal" HorizontalOptions="Center" >
+
+            <Button x:Name="btnCalculate" Text="Calculate" Margin="5" Clicked="BtnCalculate_Clicked" />
+
+        </StackLayout>
+        <Image x:Name="imgBMIChart" Grid.Row="3" HeightRequest="100" WidthRequest="100"
+                Aspect="AspectFit">
+
+            <!-- <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                                      NumberOfTapsRequired="2"/>
+            </Image.GestureRecognizers> -->
+
+        </Image>
+    </Grid>
+</ContentPage>
