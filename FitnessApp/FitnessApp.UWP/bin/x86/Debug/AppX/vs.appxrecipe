@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=73075ad3-f2d9-422d-8c21-4f18206d2d80</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>87E39C83EEDDCD07B2AE666F8DCCB6FAB93085C96C5A824DC7AF78DBC022618D</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>baf3b064-f613-46d0-91b2-c2c6e2235467_1.0.0.0_x86__w17mfqaq403me</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>baf3b064-f613-46d0-91b2-c2c6e2235467_w17mfqaq403me!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T19:12:04.606</Modified>
+      <Modified>2019-04-15T14:24:01.130</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\bin\x86\Debug\FitnessApp.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\bin\x86\Debug\FitnessApp.UWP.exe">
       <PackagePath>entrypoint\FitnessApp.UWP.exe</PackagePath>
-      <Modified>2019-04-08T19:12:03.522</Modified>
+      <Modified>2019-04-15T14:23:57.759</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\.nuget\packages\newtonsoft.json\12.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -739,250 +739,254 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2018-07-26T18:16:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp\bin\Debug\netstandard2.0\FitnessApp.dll">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\bin\Debug\netstandard2.0\FitnessApp.dll">
       <PackagePath>FitnessApp.dll</PackagePath>
-      <Modified>2019-04-08T19:11:57.878</Modified>
+      <Modified>2019-04-15T14:23:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.368</Modified>
+      <Modified>2019-04-15T09:48:55.200</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.389</Modified>
+      <Modified>2019-04-15T09:48:55.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.417</Modified>
+      <Modified>2019-04-15T09:48:55.202</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.460</Modified>
+      <Modified>2019-04-15T09:48:55.203</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.610</Modified>
+      <Modified>2019-04-15T09:48:55.205</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.065</Modified>
+      <Modified>2019-04-15T09:48:55.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.074</Modified>
+      <Modified>2019-04-15T09:48:55.217</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.083</Modified>
+      <Modified>2019-04-15T09:48:55.218</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.092</Modified>
+      <Modified>2019-04-15T09:48:55.219</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.108</Modified>
+      <Modified>2019-04-15T09:48:55.221</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.773</Modified>
+      <Modified>2019-04-15T09:48:55.223</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.806</Modified>
+      <Modified>2019-04-15T09:48:55.224</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.850</Modified>
+      <Modified>2019-04-15T09:48:55.226</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.924</Modified>
+      <Modified>2019-04-15T09:48:55.228</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:02.235</Modified>
+      <Modified>2019-04-15T09:48:55.229</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.122</Modified>
+      <Modified>2019-04-15T09:48:55.230</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.132</Modified>
+      <Modified>2019-04-15T09:48:55.231</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.144</Modified>
+      <Modified>2019-04-15T09:48:55.232</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.161</Modified>
+      <Modified>2019-04-15T09:48:55.234</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.203</Modified>
+      <Modified>2019-04-15T09:48:55.235</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.711</Modified>
+      <Modified>2019-04-15T09:48:55.236</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.718</Modified>
+      <Modified>2019-04-15T09:48:55.237</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.748</Modified>
+      <Modified>2019-04-15T09:48:55.239</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.725</Modified>
+      <Modified>2019-04-15T09:48:55.245</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.732</Modified>
+      <Modified>2019-04-15T09:48:55.246</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.617</Modified>
+      <Modified>2019-04-15T09:48:55.247</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.624</Modified>
+      <Modified>2019-04-15T09:48:55.248</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.631</Modified>
+      <Modified>2019-04-15T09:48:55.249</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.639</Modified>
+      <Modified>2019-04-15T09:48:55.250</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.650</Modified>
+      <Modified>2019-04-15T09:48:55.251</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.656</Modified>
+      <Modified>2019-04-15T09:48:55.252</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.663</Modified>
+      <Modified>2019-04-15T09:48:55.253</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.704</Modified>
+      <Modified>2019-04-15T09:48:55.255</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.676</Modified>
+      <Modified>2019-04-15T09:48:55.256</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.686</Modified>
+      <Modified>2019-04-15T09:48:55.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:02.247</Modified>
+      <Modified>2019-04-15T09:48:55.260</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:02.259</Modified>
+      <Modified>2019-04-15T09:48:55.261</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:02.270</Modified>
+      <Modified>2019-04-15T09:48:55.262</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:02.283</Modified>
+      <Modified>2019-04-15T09:48:55.263</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:02.296</Modified>
+      <Modified>2019-04-15T09:48:55.264</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.214</Modified>
+      <Modified>2019-04-15T09:48:55.266</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.231</Modified>
+      <Modified>2019-04-15T09:48:55.267</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.248</Modified>
+      <Modified>2019-04-15T09:48:55.268</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.272</Modified>
+      <Modified>2019-04-15T09:48:55.269</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:55:01.351</Modified>
+      <Modified>2019-04-15T09:48:55.271</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\myphoto.png">
+      <PackagePath>myphoto.png</PackagePath>
+      <Modified>2019-04-15T10:59:44.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2019-02-20T16:54:12.000</Modified>
+      <Modified>2019-04-15T09:48:55.280</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\bin\x86\Debug\FitnessApp.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\bin\x86\Debug\FitnessApp.UWP.xr.xml">
       <PackagePath>FitnessApp.UWP.xr.xml</PackagePath>
-      <Modified>2019-02-20T17:04:22.000</Modified>
+      <Modified>2019-04-15T09:48:56.639</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-04-08T19:12:03.321</Modified>
+      <Modified>2019-04-15T14:23:57.484</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-04-08T19:12:03.321</Modified>
+      <Modified>2019-04-15T14:23:57.484</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -1036,14 +1040,14 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2018-07-26T18:16:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T17:59:54.353</Modified>
+      <Modified>2019-04-15T14:24:00.464</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\FitnessApp\FitnessApp\FitnessApp.UWP\bin\x86\Debug\Core\FitnessApp.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\bin\x86\Debug\Core\FitnessApp.UWP.exe">
       <PackagePath>FitnessApp.UWP.exe</PackagePath>
-      <Modified>2019-04-08T19:12:04.600</Modified>
+      <Modified>2019-04-15T14:24:01.119</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

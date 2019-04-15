@@ -3,6 +3,7 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 using System.Text;
@@ -21,13 +22,12 @@ namespace FitnessApp.ModelViews
         public static List<Models.User> ReadUsers()
         {
             //App myapp = (App)Xamarin.Forms.Application.Current;
-            List<Models.User> myList;
+            List<Models.User> myList = new List<User>();
             string jsonText;
 
             try  // reading the localApplicationFolder first
             {
-                string path = Environment.GetFolderPath(
-                                Environment.SpecialFolder.LocalApplicationData);
+                string path = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
                 string filename = Path.Combine(path, USERS_SAVE_FILE);
                 using (var reader = new StreamReader(filename))
                 {
@@ -41,7 +41,7 @@ namespace FitnessApp.ModelViews
                                                 typeof(MainPage)).Assembly;
                 // create the stream
                 Stream stream = assembly.GetManifestResourceStream(
-                                    "FitnessApp.Data.users.txt");
+                                    "FitnessApp.Data.localusers.txt");
                 using (var reader = new StreamReader(stream))
                 {
                     jsonText = reader.ReadToEnd();
@@ -50,13 +50,13 @@ namespace FitnessApp.ModelViews
             }
 
             myList = JsonConvert.DeserializeObject<List<Models.User>>(jsonText);
-
+ 
             return myList;
         }
         public static void SaveUsersData(List<Models.User> userList)
         {
-            string path = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);//breakpoint here f10
 
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);//breakpoint here f10
             string fileName = Path.Combine(path, USERS_SAVE_FILE);//name of the file
 
             using (var writer = new StreamWriter(fileName, false))
@@ -69,6 +69,8 @@ namespace FitnessApp.ModelViews
 
         public void addUser(User user)
         {
+            Debug.WriteLine(user.Email);
+            Debug.WriteLine(userList.Count);
             userList.Add(user);
             SaveUsersData(userList);
         }

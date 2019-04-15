@@ -527,11 +527,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\g00341964.GMADTREE.000\\Desktop\\FitnessApp\\FitnessApp\\FitnessApp\\FitnessApp.csproj",
+      "projectUniqueName": "C:\\Users\\g00341964.GMADTREE.000\\Desktop\\Xamarin\\FitnessApp\\FitnessApp\\FitnessApp.csproj",
       "projectName": "FitnessApp",
-      "projectPath": "C:\\Users\\g00341964.GMADTREE.000\\Desktop\\FitnessApp\\FitnessApp\\FitnessApp\\FitnessApp.csproj",
+      "projectPath": "C:\\Users\\g00341964.GMADTREE.000\\Desktop\\Xamarin\\FitnessApp\\FitnessApp\\FitnessApp.csproj",
       "packagesPath": "C:\\Users\\g00341964.GMADTREE.000\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\g00341964.GMADTREE.000\\Desktop\\FitnessApp\\FitnessApp\\FitnessApp\\obj\\",
+      "outputPath": "C:\\Users\\g00341964.GMADTREE.000\\Desktop\\Xamarin\\FitnessApp\\FitnessApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

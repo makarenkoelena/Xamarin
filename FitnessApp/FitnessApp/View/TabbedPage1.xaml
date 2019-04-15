@@ -6,7 +6,8 @@
              NavigationPage.HasBackButton="False">
     <local:BMIPage Title= "BMIPage"/>
     <local:BodyFat Title= "BodyFat"/>
-    <local:ExercisePage Title= "ExercisePage"/>
+    <local:ExercisePage Title= "Exercises"/>
+    <local:MeasurementPage Title= "Measurements"/>
     
 
 </TabbedPage>

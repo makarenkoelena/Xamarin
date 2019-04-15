@@ -1096,11 +1096,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\g00341964.GMADTREE.000\\Desktop\\FitnessApp\\FitnessApp\\FitnessApp.iOS\\FitnessApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\g00341964.GMADTREE.000\\Desktop\\Xamarin\\FitnessApp\\FitnessApp.iOS\\FitnessApp.iOS.csproj",
       "projectName": "FitnessApp.iOS",
-      "projectPath": "C:\\Users\\g00341964.GMADTREE.000\\Desktop\\FitnessApp\\FitnessApp\\FitnessApp.iOS\\FitnessApp.iOS.csproj",
+      "projectPath": "C:\\Users\\g00341964.GMADTREE.000\\Desktop\\Xamarin\\FitnessApp\\FitnessApp.iOS\\FitnessApp.iOS.csproj",
       "packagesPath": "C:\\Users\\g00341964.GMADTREE.000\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\g00341964.GMADTREE.000\\Desktop\\FitnessApp\\FitnessApp\\FitnessApp.iOS\\obj\\",
+      "outputPath": "C:\\Users\\g00341964.GMADTREE.000\\Desktop\\Xamarin\\FitnessApp\\FitnessApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1117,8 +1117,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\g00341964.GMADTREE.000\\Desktop\\FitnessApp\\FitnessApp\\FitnessApp\\FitnessApp.csproj": {
-              "projectPath": "C:\\Users\\g00341964.GMADTREE.000\\Desktop\\FitnessApp\\FitnessApp\\FitnessApp\\FitnessApp.csproj"
+            "C:\\Users\\g00341964.GMADTREE.000\\Desktop\\Xamarin\\FitnessApp\\FitnessApp\\FitnessApp.csproj": {
+              "projectPath": "C:\\Users\\g00341964.GMADTREE.000\\Desktop\\Xamarin\\FitnessApp\\FitnessApp\\FitnessApp.csproj"
             }
           }
         }

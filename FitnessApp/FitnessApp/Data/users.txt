@@ -1,3 +1,0 @@
-﻿[
-{"Email":"lena@gmit.ie","Username":"admin","Password":"admin"}
-]

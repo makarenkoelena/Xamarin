@@ -10,13 +10,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Data\localusers.txt" />
     <None Remove="Data\myExercises.txt" />
-    <None Remove="Data\users.txt" />
+    <None Remove="Data\myMeasurements.txt" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Data\myMeasurements.txt" />
     <EmbeddedResource Include="Data\myExercises.txt" />
-    <EmbeddedResource Include="Data\users.txt" />
+    <EmbeddedResource Include="Data\localusers.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -51,6 +53,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="View\MeasurementPage.xaml.cs">
+      <DependentUpon>MeasurementPage.xaml</DependentUpon>
+    </Compile>
     <Compile Update="View\ExercisePage.xaml.cs">
       <DependentUpon>ExercisePage.xaml</DependentUpon>
     </Compile>
