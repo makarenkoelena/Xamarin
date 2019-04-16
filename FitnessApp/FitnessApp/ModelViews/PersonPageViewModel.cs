@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
+using System.IO;
 using System.Text;
 using System.Windows.Input;
 using Xamarin.Forms;
 
 namespace FitnessApp.ModelViews
 {
-    class MeasurementCollectionViewModel : BaseViewModel
+    class PersonPageViewModel : BaseViewModel
     {
         #region Fields
         private ObservableCollection<PersonViewModel> _personsData;
@@ -43,34 +45,29 @@ namespace FitnessApp.ModelViews
         #region
         public ICommand SaveCommand { get; private set; }
         //public ICommand NavigateToNewCommand { get; private set; }
-
-
-       
         #endregion
-        public MeasurementCollectionViewModel()
+        public PersonPageViewModel()
         {
             ReadData();
-
             SaveCommand = new Command(SaveList);
             //NavigateToNewCommand = new Command(NavigateToNew);
         }
 
-       
-        private void SaveList(object obj)
-        {
-            //   PersonViewModel.ReadPersonListData(PersonsData);
-        }
-
         private void ReadData()
         {
-            PersonsData = PersonViewModel.ReadPersonListData();
+            try
+            {
+                PersonsData = PersonViewModel.ReadPersonListData();
+            }
+            catch(FileNotFoundException)
+            {
+                Debug.WriteLine("File doesnt exist");
+            }
         }
-       
-        //public void SelectOnePersons(PersonViewModel p)
-        //{
-        //    SelectedPerson = p;
-        //}
-
+        private void SaveList()
+        {
+            PersonViewModel.WritePersonListData(PersonsData);
+        }
 
     }
 }

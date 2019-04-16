@@ -2,15 +2,19 @@
 using Newtonsoft.Json;
 using System;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.IO;
 using System.Reflection;
-
+using System.Windows.Input;
+using Xamarin.Forms;
 
 namespace FitnessApp.ModelViews
 {
+
     class PersonViewModel : BaseViewModel
     {
         public const string JSON_MEASUREMENTS_FILE = "myMeasurements.txt";
+
         #region == Attributes ==
         private string _photo;
         public string Photo
@@ -26,7 +30,7 @@ namespace FitnessApp.ModelViews
             get { return _name; }
             set { SetValue(ref _name, value); }
         }
-
+        
         private DateTime _date;
         public DateTime Date
         {
@@ -41,8 +45,8 @@ namespace FitnessApp.ModelViews
             set { SetValue(ref _gender, value); }
         }
 
-        private int _weight;
-        public int Weight
+        private float _weight;
+        public float Weight
         {
             get { return _weight; }
             set { SetValue(ref _weight, value); }
@@ -57,8 +61,8 @@ namespace FitnessApp.ModelViews
 
         }
 
-        private bool _bodyfat;
-        public bool BodyFat
+        private float _bodyfat;
+        public float BodyFat
         {
             get { return _bodyfat; }
             set { SetValue(ref _bodyfat, value); }
@@ -66,10 +70,13 @@ namespace FitnessApp.ModelViews
         }
         #endregion
         #region == Methods ==
-        
         public static ObservableCollection<PersonViewModel> ReadPersonListData()
         {
-           
+            Debug.WriteLine("in readdata");
+            var jsonSettings = new JsonSerializerSettings();
+
+            jsonSettings.DateFormatString = "dd/MM/yyyy";
+
             ObservableCollection<PersonViewModel> myList = new ObservableCollection<PersonViewModel>();
             string jsonText;
 
@@ -84,7 +91,7 @@ namespace FitnessApp.ModelViews
                     // need json library
                 }
             }
-            catch (JsonReaderException)// fallback is to read the default file
+            catch // fallback is to read the default file
             {
                 var assembly = IntrospectionExtensions.GetTypeInfo(
                                                 typeof(MainPage)).Assembly;
@@ -97,7 +104,9 @@ namespace FitnessApp.ModelViews
                     // include JSON library now
                 }
             }
-            myList = JsonConvert.DeserializeObject<ObservableCollection<PersonViewModel>>(jsonText);
+          
+            myList = JsonConvert.DeserializeObject<ObservableCollection<PersonViewModel>>(jsonText, jsonSettings);
+
             return myList;
         }
 
@@ -115,6 +124,7 @@ namespace FitnessApp.ModelViews
                 writer.WriteLine(jsonText);
             }
         }
+
         #endregion
     }
 }

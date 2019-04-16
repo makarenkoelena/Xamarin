@@ -13,16 +13,16 @@ namespace FitnessApp.ModelViews
     public class UserViewModel
     {
         private const string USERS_SAVE_FILE = "users.txt";
-        List<Models.User> userList = new List<Models.User>();
+        List<User> userList = new List<User>();
 
         public UserViewModel()
         {
             userList = ReadUsers();
         }
-        public static List<Models.User> ReadUsers()
+        public static List<User> ReadUsers()
         {
             //App myapp = (App)Xamarin.Forms.Application.Current;
-            List<Models.User> myList = new List<User>();
+            List<User> myList = new List<User>();
             string jsonText;
 
             try  // reading the localApplicationFolder first
@@ -35,7 +35,7 @@ namespace FitnessApp.ModelViews
                     // need json library
                 }
             }
-            catch // fallback is to read the default file
+            catch// fallback is to read the default file
             {
                 var assembly = IntrospectionExtensions.GetTypeInfo(
                                                 typeof(MainPage)).Assembly;
@@ -50,7 +50,6 @@ namespace FitnessApp.ModelViews
             }
 
             myList = JsonConvert.DeserializeObject<List<Models.User>>(jsonText);
- 
             return myList;
         }
         public static void SaveUsersData(List<Models.User> userList)
@@ -69,8 +68,6 @@ namespace FitnessApp.ModelViews
 
         public void addUser(User user)
         {
-            Debug.WriteLine(user.Email);
-            Debug.WriteLine(userList.Count);
             userList.Add(user);
             SaveUsersData(userList);
         }
@@ -81,10 +78,9 @@ namespace FitnessApp.ModelViews
             {
                 if (email.Equals(u.Email) && password.Equals(u.Password))
                 {
-                    return true;
+                   return true;
                 }
             }
-
             return false;
         }
     }

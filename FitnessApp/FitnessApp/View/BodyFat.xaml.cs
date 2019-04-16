@@ -13,12 +13,11 @@ namespace FitnessApp
 
         public BodyFat()
         {
+            Debug.WriteLine("CHILD ONE");
             InitializeComponent();
             setDefaultSettings();
-            VisibleFields();
+            //VisibleFields();
         }
-
-       
 
         private void setDefaultSettings()
         {
@@ -36,9 +35,6 @@ namespace FitnessApp
             
         }
 
-
-    
-
         private void EntHeight_TextChanged(object sender, TextChangedEventArgs e)
         {
             string test = ((Entry)sender).ClassId;
@@ -46,7 +42,7 @@ namespace FitnessApp
 
         private void btnCalculate_Clicked(object sender, EventArgs e)
         {
-            //ref: https://www.livestrong.com/article/90931-measure-body-fat-percentages-calipers/
+            //ref:
             double leanBodyWeight;
             double bodyFatPercentage;
 
@@ -68,7 +64,7 @@ namespace FitnessApp
         private void pckgender_SelectedIndexChanged(object sender, EventArgs e)
         {
             var selectedGender = pckgender.SelectedIndex;
-            Debug.Write("Hellokkkkkk  selectedGender  " + selectedGender);
+            //Debug.Write("Hellokkkkkk  selectedGender  " + selectedGender);
             if (pckgender.SelectedIndex == 1)//F
             {
                 sHip_measurement.IsVisible = true;
@@ -84,7 +80,7 @@ namespace FitnessApp
             }
         }
 
-        //https://stackoverflow.com/questions/48000670/xamarin-picker-control-selectedindexchange-event-raised-only-when-done-picking-i
+        
         //public event EventHandler pckgenderHandle_PickerSelectedIndexChanged (object sender, EventArgs e) 
         //{
         //    if (pckgender.SelectedItem.equals("M")

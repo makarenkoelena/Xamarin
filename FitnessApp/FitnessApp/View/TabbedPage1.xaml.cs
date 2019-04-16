@@ -15,7 +15,7 @@ namespace FitnessApp
 		public TabbedPage1 ()
 		{
 			InitializeComponent ();
-            this.CurrentPage = this.Children[1];//when tabbed pages open start from this page
+            this.CurrentPage = Children[0];//when tabbed pages open start from this page
         }
 	}
 }

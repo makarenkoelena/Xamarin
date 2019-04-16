@@ -1,23 +1,22 @@
 ﻿[
   {
-    "Photo": "myphoto.png",
-    "Name": "Makarenko Elena",
+	"Photo": "myphoto.png",
+    "Name": "Makarenko Lena",
     "Date": "15/04/2019",
     "Gender": 0,
-    "Weight": 63.5,
+    "Weight": 63,
     "BMI": 20,
     "BodyFat": 30
 
   },
-  {
-    "Photo": "photo.png",
+   {
+    "Photo": "myphoto.png",
     "Name": "John Smith",
-    "Date": "15/04/2019",
-    "Gender": 0,
+    "Date": "16/04/2019",
+    "Gender": 1,
     "Weight": 80,
-    "BMI": 20,
+    "BMI": 25,
     "BodyFat": 30
 
   }
-
 ]

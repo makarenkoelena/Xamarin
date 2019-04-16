@@ -10,12 +10,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Data\bmi.jfif" />
     <None Remove="Data\localusers.txt" />
     <None Remove="Data\myExercises.txt" />
     <None Remove="Data\myMeasurements.txt" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Data\bmi.jfif" />
     <EmbeddedResource Include="Data\myMeasurements.txt" />
     <EmbeddedResource Include="Data\myExercises.txt" />
     <EmbeddedResource Include="Data\localusers.txt" />

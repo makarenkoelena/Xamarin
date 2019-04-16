@@ -4,10 +4,10 @@
              xmlns:local="clr-namespace:FitnessApp"
              x:Class="FitnessApp.TabbedPage1"
              NavigationPage.HasBackButton="False">
-    <local:BMIPage Title= "BMIPage"/>
-    <local:BodyFat Title= "BodyFat"/>
-    <local:ExercisePage Title= "Exercises"/>
-    <local:MeasurementPage Title= "Measurements"/>
     
 
+    <local:BodyFat Title= "BodyFat"/>
+    <local:BMIPage Title= "BMIPage"/>
+    <local:ExercisePage Title= "Exercises"/>
+    <local:MeasurementPage Title= "Measurements"/>
 </TabbedPage>

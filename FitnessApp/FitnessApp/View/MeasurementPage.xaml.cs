@@ -11,8 +11,8 @@ namespace FitnessApp
         public MeasurementPage()
         {
             InitializeComponent();
-            BindingContext = new MeasurementCollectionViewModel();           
-            ObservableCollection<PersonViewModel> p = PersonViewModel.ReadPersonListData();               
+            BindingContext = new PersonPageViewModel();           
+                       
         }
     }//end of class
 }//namespace

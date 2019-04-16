@@ -91,3 +91,4 @@ C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\obj\Debug\
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\FitnessApp.dll
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\FitnessApp.pdb
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\View\MeasurementPage.xaml.g.cs
+C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\FitnessApp.csprojAssemblyReference.cache
