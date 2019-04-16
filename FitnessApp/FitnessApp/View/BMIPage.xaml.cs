@@ -11,7 +11,7 @@ namespace FitnessApp
 	[XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class BMIPage : ContentPage
     {
-       // bool bW;
+      
         public BMIPage()
         {
             InitializeComponent();

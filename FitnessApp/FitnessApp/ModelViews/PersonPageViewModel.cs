@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.IO;
-using System.Text;
 using System.Windows.Input;
 using Xamarin.Forms;
+using System.Threading.Tasks;
 
 namespace FitnessApp.ModelViews
 {
@@ -44,13 +43,29 @@ namespace FitnessApp.ModelViews
 
         #region
         public ICommand SaveCommand { get; private set; }
-        //public ICommand NavigateToNewCommand { get; private set; }
+        public ICommand NavigateToNewCommand { get; private set; }
+        //public ICommand DeleteCommand { get; private set; }
         #endregion
         public PersonPageViewModel()
         {
             ReadData();
             SaveCommand = new Command(SaveList);
-            //NavigateToNewCommand = new Command(NavigateToNew);
+            NavigateToNewCommand = new Command(NavigateToNew);
+            //DeleteCommand = new Command<PersonViewModel>(DeleteMeasurement);
+           
+        
+    }
+
+        //private void DeleteMeasurement(object obj)
+        //{
+        //    PersonsData.Remove((PersonViewModel)obj);
+        //    SelectedPersonsData = null;
+        //}
+
+        private async void NavigateToNew(object obj)
+        {
+          
+            await App.Current.MainPage.Navigation.PushModalAsync(new NewMeasurementPage());//change back to PushAsync!
         }
 
         private void ReadData()
@@ -61,13 +76,16 @@ namespace FitnessApp.ModelViews
             }
             catch(FileNotFoundException)
             {
-                Debug.WriteLine("File doesnt exist");
+                Debug.WriteLine("File doesn't exist");
             }
         }
         private void SaveList()
         {
             PersonViewModel.WritePersonListData(PersonsData);
         }
-
+        public void SelectOnePerson(PersonViewModel p)
+        {
+            SelectedPersonsData = p;
+        }
     }
 }

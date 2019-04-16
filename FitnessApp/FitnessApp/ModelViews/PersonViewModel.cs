@@ -20,7 +20,12 @@ namespace FitnessApp.ModelViews
         public string Photo
         {
             get { return _photo; }
-            set { SetValue(ref _photo, value); }
+            set { if (value == null)
+                {
+                    SetValue(ref _photo, "myphoto.png");
+                }
+                else { SetValue(ref _photo, value); }
+            }
 
         }
 
@@ -28,14 +33,31 @@ namespace FitnessApp.ModelViews
         public string Name
         {
             get { return _name; }
-            set { SetValue(ref _name, value); }
+            set
+            {
+                if (value == null)
+                {
+                    SetValue(ref _name, "Makarenko Elena");
+                }
+                else { SetValue(ref _name, value); }
+            }
+
         }
         
-        private DateTime _date;
+        private DateTime _date; 
         public DateTime Date
         {
             get { return _date; }
-            set { SetValue(ref _date, value); }
+            set {
+                if (value == null)
+                {
+                    SetValue(ref _date, DateTime.Now);
+                }
+                else
+                {
+                    SetValue(ref _date, value);
+                }
+                }
         }
 
         private Gender _gender;
@@ -68,11 +90,35 @@ namespace FitnessApp.ModelViews
             set { SetValue(ref _bodyfat, value); }
 
         }
+
+        private float _waist;
+        public float Waist
+        {
+            get { return _waist; }
+            set { SetValue(ref _waist, value); }
+
+        }
+
+        private float _hip;
+        public float Hip
+        {
+            get { return _hip; }
+            set { SetValue(ref _hip, value); }
+
+        }
+
+        private float _forearm;
+        public float Forearm
+        {
+            get { return _forearm; }
+            set { SetValue(ref _forearm, value); }
+
+        }
         #endregion
         #region == Methods ==
         public static ObservableCollection<PersonViewModel> ReadPersonListData()
         {
-            Debug.WriteLine("in readdata");
+            //Debug.WriteLine("in readdata");
             var jsonSettings = new JsonSerializerSettings();
 
             jsonSettings.DateFormatString = "dd/MM/yyyy";

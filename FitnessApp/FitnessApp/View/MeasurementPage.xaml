@@ -21,6 +21,10 @@
                             <Label Text="{Binding Path=Date}" />
                         </StackLayout>
 
+                        <StackLayout Orientation="Horizontal" Margin="2, 1">
+                            <Label Text="Gender: " />
+                            <Label Text="{Binding Path=Gender}" />
+                        </StackLayout>
                     </StackLayout>
                 </StackLayout>
             </ViewCell>
@@ -64,7 +68,7 @@
                       Grid.Column="0" Grid.Row="1"
                       SelectedItem="{Binding Path=SelectedPersonsData, Mode=TwoWay} "/>
 
-            <Grid x:Name="OneGrid"
+            <Grid x:Name="OneGrid" 
                   BindingContext="{Binding SelectedPersonsData}"
                   Grid.Column="1" Grid.Row="1"
                   HeightRequest="300">
@@ -79,13 +83,17 @@
                     <RowDefinition Height="50"/>
                     <RowDefinition Height="50"/>
                     <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
                 </Grid.RowDefinitions>
 
-                <!--<Label Text="Name:" Style="{StaticResource LabelStyle }"
-                       Grid.Column="0" Grid.Row="0"/>-->
-                <Label Text="Date:" Style="{StaticResource LabelStyle }"
+
+                <Label Text="Photo:" Style="{StaticResource LabelStyle }"
+                       Grid.Column="0" Grid.Row="0"/>
+                <Label Text="Name:" Style="{StaticResource LabelStyle }"
                        Grid.Column="0" Grid.Row="1"/>
-                <Label Text="Gender:" Style="{StaticResource LabelStyle }"
+                <Label Text="Date:" Style="{StaticResource LabelStyle }"
                        Grid.Column="0" Grid.Row="2"/>
                 <Label Text="Weight:" Style="{StaticResource LabelStyle }"
                        Grid.Column="0" Grid.Row="3"/>
@@ -93,16 +101,22 @@
                        Grid.Column="0" Grid.Row="4"/>
                 <Label Text="BodyFat:" Style="{StaticResource LabelStyle }"
                        Grid.Column="0" Grid.Row="5"/>
+                <Label Text="Waist:" Style="{StaticResource LabelStyle }"
+                       Grid.Column="0" Grid.Row="6"/>
+                <Label Text="Hip:" Style="{StaticResource LabelStyle }"
+                       Grid.Column="0" Grid.Row="7"/>
+                <Label Text="Forearm:" Style="{StaticResource LabelStyle }"
+                       Grid.Column="0" Grid.Row="8"/>
 
-                <!--<Entry Text="{Binding Path=Name}"
+
+                <Entry Text="{Binding Path=Photo}"
                         Grid.Column="1" Grid.Row="0"
-                       Style="{StaticResource EntryStyle}"/>-->
-                <Entry Text="{Binding Path=Date}"
+                       Style="{StaticResource EntryStyle}"/>
+                <Entry Text="{Binding Path=Name}"
                         Grid.Column="1" Grid.Row="1"
                        Style="{StaticResource EntryStyle}"/>
-                <Entry Text="{Binding Path=Gender}"
-                        Grid.Column="1" Grid.Row="2"
-                       Style="{StaticResource EntryStyle}"/>
+                <DatePicker x:Name="pckdate" Date="{Binding Path=Date}"
+                                Grid.Column="1" Grid.Row="2"/>
                 <Entry Text="{Binding Path=Weight}"
                         Grid.Column="1" Grid.Row="3"
                        Style="{StaticResource EntryStyle}"/>
@@ -112,15 +126,29 @@
                 <Entry Text="{Binding Path=BodyFat}"
                         Grid.Column="1" Grid.Row="5"
                        Style="{StaticResource EntryStyle}"/>
+                <Entry Text="{Binding Path=Waist}"
+                        Grid.Column="1" Grid.Row="6"
+                       Style="{StaticResource EntryStyle}"/>
+                <Entry Text="{Binding Path=Hip}"
+                        Grid.Column="1" Grid.Row="7"
+                       Style="{StaticResource EntryStyle}"/>
+                <Entry Text="{Binding Path=Forearm}"
+                        Grid.Column="1" Grid.Row="8"
+                       Style="{StaticResource EntryStyle}"/>
             </Grid>
 
             <StackLayout x:Name="ButtonsSL" Orientation="Vertical"
-                         Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2">
+                         Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" VerticalOptions="End">
                 <Button Text="Save List"
                         Command="{Binding SaveCommand}"/>
 
                 <Button Text="Add new"
                          Command ="{Binding NavigateToNewCommand}"/>
+                
+                <!--<Button Text="Delete"
+                        Command ="{Binding DeleteCommand}"
+                         CommandParameter="{Binding SelectedPersonsData}"
+                       />-->
             </StackLayout>
         </Grid>
 

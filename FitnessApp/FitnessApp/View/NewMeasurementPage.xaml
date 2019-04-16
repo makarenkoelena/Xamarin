@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessApp.NewMeasurementPage">
+
+    <ContentPage.Resources>
+        <DataTemplate x:Key="MeasurementsDT">
+            <ViewCell>
+              
+                <StackLayout Orientation="Vertical">
+                    <Image Source="{Binding Path=Photo}" WidthRequest="100"></Image>
+
+                    <StackLayout Margin="2">
+                        <StackLayout Orientation="Horizontal" Margin="2, 1">
+                            <Label Text="Name: " />
+                            <Label Text="{Binding Path=Name}" />
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal" Margin="2, 1">
+                            <Label Text="Date: " />
+                            <Label Text="{Binding Path=Date}" />
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal" Margin="2, 1">
+                            <Label Text="Gender: " />
+                            <Label Text="{Binding Path=Gender}" />
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </ViewCell>
+        </DataTemplate>
+
+        <Style x:Key="LabelStyle" TargetType="Label" >
+            <Setter Property="FontSize" Value="Small" />
+            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="WidthRequest" Value="100"/>
+        </Style>
+        <Style x:Key="EntryStyle" TargetType="Entry" >
+            <Setter Property="FontSize" Value="Small" />
+            <Setter Property="TextColor" Value="Blue" />
+            <Setter Property="WidthRequest" Value="150"/>
+            <Setter Property="HeightRequest" Value="50"/>
+        </Style>
+    </ContentPage.Resources>
+
+
+    <StackLayout x:Name="Main">
+        <Grid x:Name="MainGrid" HorizontalOptions="FillAndExpand" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="400"/>
+                <RowDefinition Height="200"/>
+            </Grid.RowDefinitions>
+
+            <Label Text="My Measurements"
+                   Grid.Column="0" Grid.Row="0"
+                   Grid.ColumnSpan="3"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="Large"></Label>
+            <Grid x:Name="OneGrid" Grid.ColumnSpan="3"  HorizontalOptions="CenterAndExpand"
+                  BindingContext="{Binding NewMeasurements}"
+                  Grid.Column="0" Grid.Row="1"
+                  HeightRequest="300">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+
+
+                <Label Text="Photo:" Style="{StaticResource LabelStyle }"
+                       Grid.Column="0" Grid.Row="0"/>
+                <Label Text="Name:" Style="{StaticResource LabelStyle }"
+                       Grid.Column="0" Grid.Row="1"/>
+                <Label Text="Date:" Style="{StaticResource LabelStyle }"
+                       Grid.Column="0" Grid.Row="2"/>
+                <Label Text="Gender:" Style="{StaticResource LabelStyle }"
+                       Grid.Column="0" Grid.Row="3"/>
+                <Label Text="BMI:" Style="{StaticResource LabelStyle }"
+                       Grid.Column="0" Grid.Row="4"/>
+                <Label Text="BodyFat:" Style="{StaticResource LabelStyle }"
+                       Grid.Column="0" Grid.Row="5"/>
+                <Label Text="Weight:" Style="{StaticResource LabelStyle }"
+                       Grid.Column="0" Grid.Row="6"/>
+                <Label Text="Waist:" Style="{StaticResource LabelStyle }"
+                       Grid.Column="0" Grid.Row="7"/>
+                <Label Text="Hip:" Style="{StaticResource LabelStyle }"
+                       Grid.Column="0" Grid.Row="8"/>
+                <Label Text="Forearm:" Style="{StaticResource LabelStyle }"
+                       Grid.Column="0" Grid.Row="9"/>
+
+                <Entry Text="{Binding Path=NewMeasurements.Photo}"
+                        Grid.Column="1" Grid.Row="0"
+                       Style="{StaticResource EntryStyle}"/>
+                <Entry Text="{Binding Path=NewMeasurements.Name}"
+                        Grid.Column="1" Grid.Row="1"
+                       Style="{StaticResource EntryStyle}"/>
+                <DatePicker x:Name="pckdate" Date="{Binding Path=NewMeasurements.Date}"
+                                Grid.Column="1" Grid.Row="2"/>
+                <Entry Text="{Binding Path=NewMeasurements.Gender}"
+                        Grid.Column="1" Grid.Row="3"
+                       Style="{StaticResource EntryStyle}"/>
+                <Entry Text="{Binding Path=NewMeasurements.Weight}"
+                        Grid.Column="1" Grid.Row="4"
+                       Style="{StaticResource EntryStyle}"/>
+                <Entry Text="{Binding Path=NewMeasurements.BMI}"
+                        Grid.Column="1" Grid.Row="5"
+                       Style="{StaticResource EntryStyle}"/>
+                <Entry Text="{Binding Path=NewMeasurements.BodyFat}"
+                        Grid.Column="1" Grid.Row="6"
+                       Style="{StaticResource EntryStyle}"/>
+                <Entry Text="{Binding Path=NewMeasurements.Waist}"
+                        Grid.Column="1" Grid.Row="7"
+                       Style="{StaticResource EntryStyle}"/>
+                <Entry Text="{Binding Path=NewMeasurements.Hip}"
+                        Grid.Column="1" Grid.Row="8"
+                       Style="{StaticResource EntryStyle}"/>
+                <Entry Text="{Binding Path=NewMeasurements.Forearm, Mode=TwoWay}"
+                        Grid.Column="1" Grid.Row="9"
+                       Style="{StaticResource EntryStyle}"/>
+            </Grid>
+
+            <StackLayout x:Name="ButtonsSL" Orientation="Vertical"
+                         Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="3" VerticalOptions="EndAndExpand">
+            
+
+                <Button Text="Add new"
+                        Command ="{Binding AddNewMeasurements}"
+                       />
+               
+
+            </StackLayout>
+        </Grid>
+
+    </StackLayout>
+</ContentPage>

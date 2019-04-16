@@ -257,3 +257,4 @@ C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.iOS\obj\iP
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.iOS\obj\iPhone\Debug\FitnessApp.iOS.csproj.CopyComplete
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.iOS\obj\iPhone\Debug\FitnessApp.iOS.exe
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.iOS\obj\iPhone\Debug\FitnessApp.iOS.pdb
+C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.iOS\bin\iPhone\Debug\FitnessApp.dll.mdb

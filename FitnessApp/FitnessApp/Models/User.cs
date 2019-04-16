@@ -14,10 +14,7 @@ namespace FitnessApp.Models
         
         public User() {  }
 
-        //public User(string Email) {
-        //    this.Email = Email;
-        //}
-
+       
         public User(string Email, string Username, string Password)
         {
             this.Email = Email;

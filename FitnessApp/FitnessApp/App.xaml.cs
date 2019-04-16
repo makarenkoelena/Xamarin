@@ -15,7 +15,7 @@ namespace FitnessApp
         {
             InitializeComponent();
              MainPage = new MeasurementPage(); // Creates single page application
-           // MainPage = new NavigationPage(new MainPage()); // Setup multiple page application
+            //MainPage = new NavigationPage(new MainPage()); // Setup multiple page application
         }
 
         protected override void OnStart()

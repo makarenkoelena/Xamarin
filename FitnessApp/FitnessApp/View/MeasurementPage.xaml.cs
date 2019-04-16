@@ -1,4 +1,5 @@
 ﻿using FitnessApp.ModelViews;
+using System;
 using System.Collections.ObjectModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -11,6 +12,7 @@ namespace FitnessApp
         public MeasurementPage()
         {
             InitializeComponent();
+            pckdate.Date = DateTime.Now;
             BindingContext = new PersonPageViewModel();           
                        
         }

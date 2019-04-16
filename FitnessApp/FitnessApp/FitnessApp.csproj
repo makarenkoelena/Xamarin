@@ -55,6 +55,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="View\NewMeasurementPage.xaml.cs">
+      <DependentUpon>NewMeasurementPage.xaml</DependentUpon>
+    </Compile>
     <Compile Update="View\MeasurementPage.xaml.cs">
       <DependentUpon>MeasurementPage.xaml</DependentUpon>
     </Compile>

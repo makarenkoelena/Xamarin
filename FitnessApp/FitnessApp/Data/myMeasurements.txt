@@ -6,7 +6,10 @@
     "Gender": 0,
     "Weight": 63,
     "BMI": 20,
-    "BodyFat": 30
+    "BodyFat": 30,
+	"Waist": 63,
+    "Hip": 20,
+    "Forearm": 30
 
   },
    {
@@ -16,7 +19,10 @@
     "Gender": 1,
     "Weight": 80,
     "BMI": 25,
-    "BodyFat": 30
+    "BodyFat": 30,
+	"Waist": 63,
+    "Hip": 20,
+    "Forearm": 30
 
   }
 ]
