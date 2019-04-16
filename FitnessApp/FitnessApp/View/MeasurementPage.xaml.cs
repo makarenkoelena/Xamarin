@@ -12,7 +12,7 @@ namespace FitnessApp
         public MeasurementPage()
         {
             InitializeComponent();
-            pckdate.Date = DateTime.Now;
+            //pckdate.Date = DateTime.Now;
             BindingContext = new PersonPageViewModel();           
                        
         }

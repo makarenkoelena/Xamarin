@@ -116,19 +116,19 @@
                 <Entry Text="{Binding Path=NewMeasurements.Gender}"
                         Grid.Column="1" Grid.Row="3"
                        Style="{StaticResource EntryStyle}"/>
-                <Entry Text="{Binding Path=NewMeasurements.Weight}"
+                <Entry Text="{Binding Path=NewMeasurements.Weight, Mode=TwoWay}"
                         Grid.Column="1" Grid.Row="4"
                        Style="{StaticResource EntryStyle}"/>
-                <Entry Text="{Binding Path=NewMeasurements.BMI}"
+                <Entry Text="{Binding Path=NewMeasurements.BMI, Mode=TwoWay}"
                         Grid.Column="1" Grid.Row="5"
                        Style="{StaticResource EntryStyle}"/>
-                <Entry Text="{Binding Path=NewMeasurements.BodyFat}"
+                <Entry Text="{Binding Path=NewMeasurements.BodyFat, Mode=TwoWay}"
                         Grid.Column="1" Grid.Row="6"
                        Style="{StaticResource EntryStyle}"/>
-                <Entry Text="{Binding Path=NewMeasurements.Waist}"
+                <Entry Text="{Binding Path=NewMeasurements.Waist, Mode=TwoWay}"
                         Grid.Column="1" Grid.Row="7"
                        Style="{StaticResource EntryStyle}"/>
-                <Entry Text="{Binding Path=NewMeasurements.Hip}"
+                <Entry Text="{Binding Path=NewMeasurements.Hip, Mode=TwoWay}"
                         Grid.Column="1" Grid.Row="8"
                        Style="{StaticResource EntryStyle}"/>
                 <Entry Text="{Binding Path=NewMeasurements.Forearm, Mode=TwoWay}"
