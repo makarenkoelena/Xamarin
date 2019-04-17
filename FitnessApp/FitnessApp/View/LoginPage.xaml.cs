@@ -27,7 +27,7 @@ namespace FitnessApp
             {
                 if (App.app.checkInfo(entry_email.Text, entry_password.Text))
                 {
-                    Debug.WriteLine("INSIDE CLICKED!!!!!!!!!!!!!");
+                    //Debug.WriteLine("INSIDE CLICKED!!!!!!!!!!!!!");
                     await App.Current.MainPage.Navigation.PushAsync(new TabbedPage1());
                 }
                 else if (!entry_email.Text.Contains("@"))

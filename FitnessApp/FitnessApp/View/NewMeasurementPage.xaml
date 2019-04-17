@@ -9,7 +9,7 @@
               
                 <StackLayout Orientation="Vertical">
                     <Image Source="{Binding Path=Photo}" x:Name="PhotoImage" WidthRequest="100"></Image>
-                    <Button x:Name="CameraButton" Text="Take Photo" />
+                    
                     <StackLayout Margin="2">
                         <StackLayout Orientation="Horizontal" Margin="2, 1">
                             <Label Text="Name: " />
@@ -143,7 +143,7 @@
                 <Button Text="Add new"
                         Command ="{Binding AddNewMeasurements}"
                        />
-               
+                <Button x:Name="CameraButton" Text="Take Photo" Command ="{Binding CameraCommand}"/>
 
             </StackLayout>
         </Grid>

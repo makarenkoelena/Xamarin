@@ -83,5 +83,17 @@ namespace FitnessApp.ModelViews
             }
             return false;
         }
+
+        public bool isRegistered(String email, String password)
+        {
+            foreach (User u in userList)
+            {
+                if (email.Equals(u.Email) && password.Equals(u.Password))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }

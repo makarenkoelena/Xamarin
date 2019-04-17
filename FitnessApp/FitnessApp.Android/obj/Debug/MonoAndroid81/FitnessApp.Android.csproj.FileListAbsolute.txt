@@ -103,7 +103,9 @@ C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.Android\ob
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.Android\obj\Debug\MonoAndroid81\android\assets\System.Xml.pdb
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\bin\Debug\netstandard2.0\FitnessApp.dll
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.Android\obj\Debug\MonoAndroid81\linksrc\FitnessApp.Android.pdb
+C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.Android\bin\Debug\FitnessApp.dll.mdb
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.Android\obj\Debug\MonoAndroid81\linksrc\FitnessApp.dll.mdb
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.Android\obj\Debug\MonoAndroid81\linksrc\FormsViewGroup.dll.mdb
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.Android\obj\Debug\MonoAndroid81\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
