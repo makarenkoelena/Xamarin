@@ -23,7 +23,7 @@
 
             <StackLayout>
                 <Label Text="Enter your password"/>
-                <Entry x:Name="password" />
+                <Entry x:Name="password" IsPassword="True"/>
             </StackLayout>
             
             <Button x:Name="btnRegister" Text="Register" Clicked="btnRegister_Clicked" />
