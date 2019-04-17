@@ -5,6 +5,9 @@ C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.Android\ob
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.Android\obj\Debug\MonoAndroid81\android\assets\Mono.Android.dll
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.Android\obj\Debug\MonoAndroid81\android\assets\mscorlib.dll
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.Android\obj\Debug\MonoAndroid81\android\assets\Newtonsoft.Json.dll
+C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.Android\obj\Debug\MonoAndroid81\android\assets\Plugin.CurrentActivity.dll
+C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.Android\obj\Debug\MonoAndroid81\android\assets\Plugin.Media.dll
+C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.Android\obj\Debug\MonoAndroid81\android\assets\Plugin.Permissions.dll
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.Android\obj\Debug\MonoAndroid81\android\assets\SQLite-net.dll
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.Android\obj\Debug\MonoAndroid81\android\assets\SQLitePCLRaw.batteries_green.dll
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.Android\obj\Debug\MonoAndroid81\android\assets\SQLitePCLRaw.batteries_v2.dll

@@ -13,7 +13,7 @@ namespace FitnessApp
 
         public BodyFat()
         {
-            Debug.WriteLine("CHILD ONE");
+            //Debug.WriteLine("CHILD ONE");
             InitializeComponent();
             setDefaultSettings();
             //VisibleFields();
@@ -50,21 +50,23 @@ namespace FitnessApp
             if (Gender.Equals("F"))
             {
                 leanBodyWeight = (0.732 * Convert.ToDouble(entWeight.Text)) - (0.157 * Convert.ToDouble(entWaist.Text)) - (0.249 * Convert.ToDouble(entHip.Text)) + (0.434 * Convert.ToDouble(entForearm.Text)) + (Convert.ToDouble(entWrist.Text) / 3.14) + 8.987;
-                bodyFatPercentage = (Convert.ToDouble(entWeight.Text) - leanBodyWeight) / (Convert.ToDouble((entWeight.Text)) * 100);
-                lblAnswer.Text = "Your Body Fat is: " + bodyFatPercentage.ToString("0.00");
+                bodyFatPercentage = (Convert.ToDouble(entWeight.Text) - leanBodyWeight) / Convert.ToDouble(entWeight.Text)*100  ;
+                lblAnswer.Text = "Your lean Body Weight is: " + leanBodyWeight.ToString("0.00");
+                lblAnswer2.Text = "Your Body Fat is: " + bodyFatPercentage.ToString("0.00");
             }
-            else //if (Gender.Equals("M"))
+            else if (Gender.Equals("M"))
             {
                 leanBodyWeight = (1.082 * (Convert.ToDouble(entWeight.Text))) - (4.15 * Convert.ToDouble(entWaist.Text)) + 94.42;
-                bodyFatPercentage = (Convert.ToDouble(entWeight.Text) - leanBodyWeight) / (Convert.ToDouble((entWeight.Text)) * 100);
-                lblAnswer.Text = "Your Body Fat is: " + bodyFatPercentage.ToString("0.00");
+                bodyFatPercentage = (Convert.ToDouble(entWeight.Text) - leanBodyWeight) / Convert.ToDouble(entWeight.Text)*100;
+                lblAnswer.Text = "Your lean Body Weight is: " + leanBodyWeight.ToString("0.00");
+                lblAnswer2.Text = "Your Body Fat is: " + bodyFatPercentage.ToString("0.00");
             }
         }
 
         private void pckgender_SelectedIndexChanged(object sender, EventArgs e)
         {
             var selectedGender = pckgender.SelectedIndex;
-            //Debug.Write("Hellokkkkkk  selectedGender  " + selectedGender);
+            
             if (pckgender.SelectedIndex == 1)//F
             {
                 sHip_measurement.IsVisible = true;

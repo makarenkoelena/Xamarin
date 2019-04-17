@@ -12,8 +12,9 @@ namespace FitnessApp
         {
             InitializeComponent();
             pckdate.Date = DateTime.Now;
-            BindingContext = new NewMeasurementViewModel();           
-                       
+            BindingContext = new NewMeasurementViewModel();
+            
+
         }
     }//end of class
 }//namespace

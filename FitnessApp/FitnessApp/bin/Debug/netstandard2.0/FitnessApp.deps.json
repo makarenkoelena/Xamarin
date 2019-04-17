@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "d586e83eb5e2a537ef969b7f2cd0890237e4c952"
+    "signature": "50c4fc041c7c0bad747f8e13b866aea850e4dea8"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,8 +11,10 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.1",
+          "Xam.Plugin.Media": "4.0.1.5",
           "Xamarin.Forms": "3.1.0.697729",
-          "sqlite-net-pcl": "1.5.231"
+          "sqlite-net-pcl": "1.5.231",
+          "Mono.Android": "0.0.0.0"
         },
         "runtime": {
           "FitnessApp.dll": {}
@@ -29,6 +31,14 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "12.0.0.0",
             "fileVersion": "12.0.1.22727"
+          }
+        }
+      },
+      "Plugin.Permissions/3.0.0.12": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Permissions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -71,6 +81,17 @@
           }
         }
       },
+      "Xam.Plugin.Media/4.0.1.5": {
+        "dependencies": {
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Media.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Xamarin.Forms/3.1.0.697729": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
@@ -84,6 +105,14 @@
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Mono.Android/0.0.0.0": {
+        "runtime": {
+          "Mono.Android.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
           }
         }
       }
@@ -116,6 +145,13 @@
       "path": "newtonsoft.json/12.0.1",
       "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
     },
+    "Plugin.Permissions/3.0.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R8Rlzfci1byoPBGOiJfCMzu0HhhN6Q4Vq4YizlF41W946NEmoL/Mb8U5caP5t5KfSbdPQpzdQ9JfM8fxPG8pfw==",
+      "path": "plugin.permissions/3.0.0.12",
+      "hashPath": "plugin.permissions.3.0.0.12.nupkg.sha512"
+    },
     "sqlite-net-pcl/1.5.231": {
       "type": "package",
       "serviceable": true,
@@ -137,12 +173,24 @@
       "path": "sqlitepclraw.core/1.1.11",
       "hashPath": "sqlitepclraw.core.1.1.11.nupkg.sha512"
     },
+    "Xam.Plugin.Media/4.0.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PxL0vcTXpS79l2KgtaJBShcPVMRK2HC5J08vG6hKTC7hk5+3RjgFrdX0N6Gd4oF8pxVxV2ia7rhYnjxRCMWZtw==",
+      "path": "xam.plugin.media/4.0.1.5",
+      "hashPath": "xam.plugin.media.4.0.1.5.nupkg.sha512"
+    },
     "Xamarin.Forms/3.1.0.697729": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-oYfHpCY9i9wN4vLllsIhzDZY5iOCUtZ3RHxID1fiXOcf7yL9UA16NUsI8opoNmpv1Ru2lTGG9ZKKT1sYS6DLjA==",
       "path": "xamarin.forms/3.1.0.697729",
       "hashPath": "xamarin.forms.3.1.0.697729.nupkg.sha512"
+    },
+    "Mono.Android/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

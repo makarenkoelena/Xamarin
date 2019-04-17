@@ -87,9 +87,13 @@ C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\obj\Debug\
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\FitnessApp.csproj.CoreCompileInputs.cache
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\FitnessApp.AssemblyInfoInputs.cache
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\FitnessApp.AssemblyInfo.cs
-C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\FitnessApp.dll
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\FitnessApp.pdb
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\View\MeasurementPage.xaml.g.cs
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\FitnessApp.csprojAssemblyReference.cache
 C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\View\NewMeasurementPage.xaml.g.cs
+C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\FitnessApp.csproj.CopyComplete
+C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\XamlC.stamp

@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Machine>CRBYOD16</Machine>
-    <WindowsUser>g00341964</WindowsUser>
+    <WindowsUser>G00341964</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>22B35C58EC8A23939D1406DD8D00AF379C845C354FE78ED0CF44B6D46F79AA5D</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>22AD9DBDF540FA51A6EC9CD491E98C8C82B5DE0B3A4FA71B2EDEB4F46CD7E4D8</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>baf3b064-f613-46d0-91b2-c2c6e2235467_1.0.0.0_x86__w17mfqaq403me</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>baf3b064-f613-46d0-91b2-c2c6e2235467_w17mfqaq403me!App</RegisteredUserModeAppID>
     <RegisteredPackageID>baf3b064-f613-46d0-91b2-c2c6e2235467</RegisteredPackageID>
@@ -31,17 +31,21 @@
     <AppXManifest Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-16T17:21:24.658</Modified>
+      <Modified>2019-04-17T11:40:43.991</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\bin\x86\Debug\FitnessApp.UWP.exe">
       <PackagePath>entrypoint\FitnessApp.UWP.exe</PackagePath>
-      <Modified>2019-04-16T17:21:23.845</Modified>
+      <Modified>2019-04-17T11:40:43.066</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\.nuget\packages\newtonsoft.json\12.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2018-11-27T18:07:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\.nuget\packages\plugin.permissions\3.0.0.12\lib\uap10.0.10240\Plugin.Permissions.dll">
+      <PackagePath>Plugin.Permissions.dll</PackagePath>
+      <Modified>2018-05-16T00:38:36.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -723,6 +727,10 @@
       <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
       <Modified>2018-05-02T10:44:20.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\.nuget\packages\xam.plugin.media\4.0.1.5\lib\uap10.0.10240\Plugin.Media.dll">
+      <PackagePath>Plugin.Media.dll</PackagePath>
+      <Modified>2018-07-23T19:55:22.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\.nuget\packages\xamarin.forms\3.1.0.697729\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
       <Modified>2018-07-26T18:16:18.000</Modified>
@@ -741,7 +749,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp\bin\Debug\netstandard2.0\FitnessApp.dll">
       <PackagePath>FitnessApp.dll</PackagePath>
-      <Modified>2019-04-16T17:21:19.242</Modified>
+      <Modified>2019-04-17T11:40:38.134</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -982,11 +990,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-04-16T17:21:23.680</Modified>
+      <Modified>2019-04-17T11:40:42.886</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-04-16T17:21:23.681</Modified>
+      <Modified>2019-04-17T11:40:42.887</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -1043,11 +1051,11 @@
     <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-15T17:39:37.440</Modified>
+      <Modified>2019-04-17T10:42:58.911</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g00341964.GMADTREE.000\Desktop\Xamarin\FitnessApp\FitnessApp.UWP\bin\x86\Debug\Core\FitnessApp.UWP.exe">
       <PackagePath>FitnessApp.UWP.exe</PackagePath>
-      <Modified>2019-04-16T17:21:24.652</Modified>
+      <Modified>2019-04-17T11:40:43.987</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -50,8 +50,8 @@
                 <Label x:Name="fw" Text="Wrist measurement (cm): " IsVisible="True"/>
                 <Entry x:Name="entWrist" Keyboard="Numeric" Placeholder="Your Wrist Measurement" TextChanged="EntHeight_TextChanged" ClassId="Weight"/>
             </StackLayout>
-
-            <Label x:Name="lblAnswer" Text="Your Body Fat is: " Margin="0, 3, 0, 6" HorizontalOptions="Center"/>
+            <Label x:Name="lblAnswer" Text="Your Lean Body mass is: " Margin="0, 3, 0, 6" HorizontalOptions="Center"/>
+            <Label x:Name="lblAnswer2" Text="Your Body Fat is: " Margin="0, 3, 0, 6" HorizontalOptions="Center"/>
         </StackLayout>
 
         <StackLayout x:Name="slButtons" Grid.Row="2" Orientation="Horizontal" HorizontalOptions="Center" >
